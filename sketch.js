@@ -184,7 +184,7 @@ function mouseReleased(){
 function keyPressed(){
  
   if(keyCode===32){
-    slingshot.attach(ball.body)
+    slingshot.attach(this.ball)
 
 
     }
